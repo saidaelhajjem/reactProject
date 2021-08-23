@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import Button from '././composants/buttonAdd/ButtonAdd';
+import Login from '././pages/login/LoginPage';
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
    <Router>
      <Switch>
        <Route exact path="/button" component={Button}/>
+       <Route  path="/login" component={Login}/>
      </Switch>
    </Router>
    </>
