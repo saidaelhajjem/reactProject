@@ -1,42 +1,54 @@
-.container{
+.container {
     background-image: url(../../assets/images/loginbackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    .login{
+    position: relative;
+    .login {
         width: 29rem;
         height: 18rem;
-        margin: auto;
         background-color: #ffffff30;
-        .title{
-            size:18px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        .title {
+            size: 18px;
             line-height: 18px;
             font-family: roboto;
             display: block;
-           text-align: center;
-           padding: 10px;
-           color:#171442c7;
+            text-align: center;
+            padding: 10px;
+            color: var(--blue-color);
+            margin-top: 20px;
         }
-        .blocInput{
+        .blocInput {
             display: grid;
             margin: 10px 30px;
-            label{
+            label {
                 padding: 0 5px;
+                color: var(--blue-color);
             }
-            input{
+            input {
                 height: 40px;
-    border: none;
-    border-radius: 10px;
-    padding: 0 11px;
-    font-size: 15px;
-    line-height: 15px;
-
+                border: none;
+                border-radius: 10px;
+                padding: 0 11px;
+                font-size: 15px;
+                line-height: 15px;
             }
         }
-        .sendButton{
+        .sendButton {
             display: block;
             margin: auto;
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: var(--blue-button);
+            color:var( --white-color);
+            border: none;
         }
-
     }
 }

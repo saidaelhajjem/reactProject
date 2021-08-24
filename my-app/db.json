@@ -15,5 +15,9 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "user":{
+    "username":"saida",
+    "password":"123456"
   }
 }
